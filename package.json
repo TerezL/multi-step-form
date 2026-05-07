@@ -1,11 +1,14 @@
 {
   "name": "multi-step-form",
+  "homepage": "https://github.com/TerezL/multi-step-form.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
